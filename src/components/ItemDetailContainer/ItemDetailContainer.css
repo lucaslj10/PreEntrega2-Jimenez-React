@@ -1,0 +1,10 @@
+.Container {
+  background-color: #83585800;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+/* Puedes ajustar los colores y estilos según tus preferencias */

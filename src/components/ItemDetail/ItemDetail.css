@@ -1,0 +1,34 @@
+/* ItemDetail.css */
+
+.CardItem {
+  background-color: rgb(29, 91, 102);
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(48, 30, 30, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px;
+  text-align: center;
+}
+
+.ItemHeader {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.ItemImg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.Info {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.ItemFooter {
+  margin-top: 15px;
+}
+
+/* Puedes ajustar los colores y estilos según tus preferencias */

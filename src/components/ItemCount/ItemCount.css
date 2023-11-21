@@ -1,0 +1,34 @@
+/* ItemCount.css */
+
+.Counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.Controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.Button {
+  background-color: rgb(161, 42, 165);
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2em;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.Number {
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+
+.Button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

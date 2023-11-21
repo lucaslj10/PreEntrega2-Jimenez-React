@@ -1,0 +1,9 @@
+div li {
+  list-style: none;
+  font-size: 20px;
+  padding: 15px;
+}
+hoja de estilo del usuario-agente li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
