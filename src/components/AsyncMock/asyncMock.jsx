@@ -14,7 +14,7 @@ const products = [
     price: 200,
     category: "RemeraCorta",
     img: "PurpleSupreme",
-    stock: 10,
+    stock: 2,
     description: "Purple Supreme Shirt",
   },
   {
@@ -27,10 +27,10 @@ const products = [
     description: "Amiri district silk shirt",
   },
 ];
-export const getProductByid = (productId) => {
+export const getProductById = (productId) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(products.find((prod) => prod.id === productId));
+      resolve(products);
     }, 500);
   });
 };

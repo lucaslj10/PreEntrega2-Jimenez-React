@@ -2,15 +2,14 @@ import React from "react";
 import Item from "../Item/Item";
 import "./ItemList.css";
 
-const ItemList = ({ products }) => {
-  console.log("Lista de productos:", products);
+const productsKey = "productsKey";
 
+const ItemList = ({ products }) => {
   return (
-    <div className="ListGroup">
-      {products &&
-        products.map((prod) =>
-          prod && prod.id ? <Item key={prod.id} {...prod} /> : null
-        )}
+    <div className="ListGroup" key={productsKey}>
+      {products.map((prod) => (
+        <Item key={prod.id} {...prod} />
+      ))}
     </div>
   );
 };

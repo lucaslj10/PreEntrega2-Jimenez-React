@@ -10,7 +10,11 @@ const Item = ({ id, name, img, price, stock }) => {
       </header>
 
       <picture>
-        <img src={img} alt={name} className="ItemImg" />
+        <img
+          src={`/assets/img/Balenciaga.jpg${img}`}
+          alt={name}
+          className="ItemImg"
+        />
       </picture>
       <section>
         <p className="Info">Precio: $ {price}</p>
