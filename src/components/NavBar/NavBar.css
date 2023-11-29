@@ -1,9 +1,7 @@
-div li {
-  list-style: none;
+.Categories a {
+  align-items: center;
+  padding: 20px;
   font-size: 20px;
-  padding: 15px;
-}
-hoja de estilo del usuario-agente li {
-  display: list-item;
-  text-align: -webkit-match-parent;
+  border-bottom: purple solid;
+  border-top: purple solid;
 }

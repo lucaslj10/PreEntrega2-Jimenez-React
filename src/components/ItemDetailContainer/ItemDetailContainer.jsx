@@ -5,23 +5,24 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 
 const ItemDetailContainer = () => {
-  const { itemId } = useParams();
   const [product, setProduct] = useState(null);
+  const { itemId } = useParams();
 
   useEffect(() => {
-    const fetchProduct = async () => {
-      try {
-        const fetchedProduct = await getProductById(itemId);
-        setProduct(fetchedProduct);
-      } catch (error) {
-        console.error("Error fetching product:", error);
-      }
-    };
-
-    fetchProduct();
+    getProductById(itemId)
+      .then((response) => {
+        setProduct(response);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   }, [itemId]);
 
-  return <ItemDetail product={product} />;
+  return (
+    <div className="ItemDetailContainer">
+      <ItemDetail {...product}></ItemDetail>
+    </div>
+  );
 };
 
 export default ItemDetailContainer;
