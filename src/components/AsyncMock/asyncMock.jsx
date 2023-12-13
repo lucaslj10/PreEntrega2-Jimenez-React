@@ -11,10 +11,10 @@ const products = [
   {
     id: "2",
     name: "Purple Supreme Shirt",
-    price: 200,
+    price: 130,
     category: "supreme",
     img: "/assets/img/purplesupremeshirt.jpg",
-    stock: 2,
+    stock: 5,
     description: "Purple Supreme Shirt",
   },
   {
@@ -23,7 +23,7 @@ const products = [
     price: 900,
     category: "amiri",
     img: "/assets/img/amirishirt.png",
-    stock: 10,
+    stock: 8,
     description: "Amiri district silk shirt",
   },
 ];
