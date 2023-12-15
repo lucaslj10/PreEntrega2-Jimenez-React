@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDbVQCvp_95Qi_0UWIcMh7XvXSbPFkhNGE",
-  authDomain: "ecommercelj-ab58b.firebaseapp.com",
-  projectId: "ecommercelj-ab58b",
-  storageBucket: "ecommercelj-ab58b.appspot.com",
-  messagingSenderId: "400404314783",
-  appId: "1:400404314783:web:d5c063d3c6ace6af9b80aa",
+  apiKey: "AIzaSyC7c0uFXKVU-WxcVtvuu4uKSJUaf_LG0Vc",
+  authDomain: "t-shirt-5e7bc.firebaseapp.com",
+  projectId: "t-shirt-5e7bc",
+  storageBucket: "t-shirt-5e7bc.appspot.com",
+  messagingSenderId: "476234558097",
+  appId: "1:476234558097:web:8e2d76646a2b9315e3ed30",
 };
 
 const app = initializeApp(firebaseConfig);
